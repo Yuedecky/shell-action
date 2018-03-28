@@ -1,0 +1,1 @@
+ps -al | gawk '{print $2,$4}' | grep Z
